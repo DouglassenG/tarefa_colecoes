@@ -10,7 +10,7 @@ public class SegundaParte {
         ArrayList<String> grupoMasculino = new ArrayList<>();
         ArrayList<String> grupoFeminino  = new ArrayList<>();
 
-        // 1. Lê a entrada no formato: Rodrigo-M, Luana-F, Carlos-M
+        // 1.Lê a entrada no formato: Rodrigo-M, Luana-F, Carlos-M
         System.out.print("Digite os nomes no formato (ex: Rodrigo-M, Luana-F): ");
         String entrada = scanner.nextLine();
 
@@ -19,7 +19,7 @@ public class SegundaParte {
 
         for (String pessoa : pessoas) {
 
-            // 3. Segundo split: separa o nome do sexo pelo traço
+            // 3. Segundo split: separa o nome do sexo pelo traço  
             String[] partes = pessoa.trim().split("-");
 
             String nome = partes[0].trim();
